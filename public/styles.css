@@ -1,0 +1,104 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  /* background-color: #c9b44c; */
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  box-sizing: border-box;
+  background-color: #faf9f6d0;
+}
+.header {
+  background-color: #f5ba13;
+  height: 3rem;
+  text-align: center;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+  font-family: McLaren;
+  padding: 1rem;
+}
+h1 {
+  margin: 0px;
+}
+form {
+  background-color: white;
+  padding: 1em;
+  min-width: 500px;
+  /* min-height: 135px; */
+  border-radius: 1rem;
+  position: absolute;
+  left: 500px;
+  margin-top: 2rem;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+input {
+  padding-top: 1em;
+  padding-bottom: 0px;
+}
+textarea {
+  margin-top: 0px;
+  padding-top: 15px;
+  font-weight: lighter;
+}
+form .button {
+  position: absolute;
+  left: 83%;
+  bottom: -16%%;
+  background-color: #f5ba13;
+}
+.head-icon {
+  position: relative;
+  top: 7px;
+}
+#form-area {
+  /* background-color: black; */
+  height: 203px;
+  width: 100%;
+}
+.note {
+  background-color: rgb(158 151 151 / 66%);
+  text-align: start;
+  max-width: 250px;
+  /* height: auto; */
+  padding: 5px;
+  margin: 10px 10px;
+  border-radius: 20px;
+  margin: 25px 20px;
+  float: left;
+  box-shadow: 0px 0px 33px 6px rgba(0, 0, 0, 0.1);
+}
+.note button {
+  position: relative;
+  left: 85%;
+  bottom: 7px;
+  box-sizing: border-box;
+  padding: 0px 2px;
+  color: #f5ba13;
+  border-radius: 10px;
+  /* float: right; */
+  margin-right: 2px;
+  margin-top: 8px;
+}
+.note .note-icon {
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+.note h1 {
+  text-align: center;
+  padding: 3px 5px 0px 5px;
+}
+.note p {
+  margin: 5px 5px;
+  /* float: left; */
+}
